@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Output Format",
+      "setup": "javac src/AbstractShapes.java",
+      "run": "java -cp src AbstractShapes",
+      "input": "",
+      "output": "Rectangle has 4 sides\nTriangle has 3 sides\nHexagon has 6 sides",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
